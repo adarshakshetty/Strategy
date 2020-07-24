@@ -1,6 +1,6 @@
 package com.example.patient.startgeypatient;
 
-public class NameDataFilter implements com.example.patient.startgeypatient.IFilter {
+public class NameDataFilter implements IFilterDataInfo {
 
    String name;
 

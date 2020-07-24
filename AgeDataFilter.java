@@ -1,6 +1,6 @@
 package com.example.patient.startgeypatient;
 
-public class AgeDataFilter implements com.example.patient.startgeypatient.IFilter {
+public class AgeDataFilter implements IFilterDataInfo {
 
     int age;
 

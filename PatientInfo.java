@@ -5,13 +5,13 @@ public class PatientInfo {
  public static void main(String[] args)
  {
   PatientDataProvider patientDataProvider =new PatientDataProvider();
-  patientDataProvider.getPatientInfo(new com.example.patient.startgeypatient.NameFilter());
+  patientDataProvider.getPatientInfo(new NameDataFilter());
 
 
   patientDataProvider.getPatientInfo(new AgeDataFilter());
 
 
-  patientDataProvider.getPatientInfo(new com.example.patient.startgeypatient.EmailFilter());
+  patientDataProvider.getPatientInfo(new EmailDataFilter());
 
 
  }
